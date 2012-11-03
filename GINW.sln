@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GINW", "GINW\GINW.csproj", "{9C45B647-1DCF-41CF-83AF-AAD63DEEAB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GINB", "GINB\GINB.csproj", "{3400EE8C-461B-4FF7-8492-5C1FB5865AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIN.Model", "GIN.Model\GIN.Model.csproj", "{B43B08FE-89D1-41CC-BDFC-B1872C96C955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C45B647-1DCF-41CF-83AF-AAD63DEEAB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C45B647-1DCF-41CF-83AF-AAD63DEEAB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C45B647-1DCF-41CF-83AF-AAD63DEEAB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C45B647-1DCF-41CF-83AF-AAD63DEEAB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3400EE8C-461B-4FF7-8492-5C1FB5865AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3400EE8C-461B-4FF7-8492-5C1FB5865AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3400EE8C-461B-4FF7-8492-5C1FB5865AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3400EE8C-461B-4FF7-8492-5C1FB5865AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43B08FE-89D1-41CC-BDFC-B1872C96C955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43B08FE-89D1-41CC-BDFC-B1872C96C955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43B08FE-89D1-41CC-BDFC-B1872C96C955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43B08FE-89D1-41CC-BDFC-B1872C96C955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
