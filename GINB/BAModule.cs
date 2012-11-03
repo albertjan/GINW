@@ -14,7 +14,7 @@ namespace GINB
 
             Get["/filter/{category}/{word}"] = x =>
             {
-                
+                return "";
             };
         }
     }

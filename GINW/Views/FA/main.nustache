@@ -23,7 +23,7 @@
 
 	<div id="header-container">
 		<header class="wrapper clearfix">
-			<h1 id="title">please.me</h1>
+			<h1 id="title">Please <b>ME</b></h1>
 		</header>
 	</div>
 
@@ -34,7 +34,7 @@
 		<nav>
             <ul>
             {{#categories}}
-                <li><a class="category" id="{{Name}}" href="#">{{Name}}</a></il>
+                <li><a class="category" id="{{Name}}" href="#">{{Name}}</a></li>
             {{/categories}}
             </ul>
 		</nav>
@@ -51,7 +51,7 @@
 					<h1>article header h1</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
 				</header>-->
-				<section>
+				<!--<section>
 					<h2>HOW (do I please you)</h2>
 					<p>
                         <select>
@@ -62,8 +62,8 @@
                             {{/categories}}
                         </select>
                     </p>
-				</section>
-                <div class="button">please.me!</div>
+				</section>-->
+        <!--<div class="button">please.me!</div>-->
 				<!--<section>
 					<h2>article section h2</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>

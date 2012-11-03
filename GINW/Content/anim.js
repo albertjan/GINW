@@ -5,8 +5,8 @@
     $("header h1").css('left', $(document).width() / 2 - ($("header h1").width() / 2));
     $("header h1").css('top', $(window).height() / 2 - ($("header h1").height() / 2));
     setTimeout(function () {
-        $("#header-container").animate({ 'height': '70px' }, 500);
-        $("header h1").animate({ 'left': '120px', 'top': '0px' }, 500);
+        $("#header-container").animate({ 'height': '12%' }, 500);
+        $("header h1").animate({ 'left': '5%', 'top': '0px' }, 500);
 
     }, 1000);
     
