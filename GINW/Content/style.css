@@ -71,7 +71,14 @@ td { vertical-align: top; }
 body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 
 .wrapper{
-	width:90%;
+    width: 300px;
+    float: left;
+	margin:0 5%;
+}
+
+.bigwrapper{
+    width: 600px;
+    float: left;
 	margin:0 5%;
 }
 
@@ -79,13 +86,14 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ 
-    border-bottom: 20px solid #8dd5d4;
-    height: 100%;
+
+#nav-header-container{
+    margin-top: 30px;
 }
 
-#nav-header-container {
+#nav-header-container-2 {
     margin-top: 30px;
+    display: none;
 }
 
 header h1 {
@@ -110,17 +118,31 @@ header h1 {
     MOBILE: Menu
    ============== */
 
-nav a{
-	display:block;
-	margin-bottom:10px;
-	padding:15px 0;
+nav li {
+     float:left;
+}
 
+nav a{
+    float: left;
+
+    width: 100px;
+    height: 100px;
+
+	display: block;
+	margin-bottom: 10px;
+	/*padding:15px 0;*/
+   
 	background:#8dd5d4;
 	color:white;
 
 	text-align:center;
 	text-decoration:none;
 	font-weight:bold;
+
+    margin: 5px;
+    /*padding:25px 2%;*/
+    /*border: 5px solid white;*/
+    box-shadow: 5px 5px 5px #AAA;
 }
 
 nav a:hover, nav a:visited{
@@ -148,10 +170,11 @@ nav a:hover{
 	padding:0px 5% 10px;
 }
 
-#footer-container footer{
-	color:white;
-	/*padding:20px 0;*/
+#footer-container {
+    display: none;
 }
+
+
 
 /* ===============
     ALL: IE Fixes
@@ -180,25 +203,42 @@ nav a:hover{
     INTERMEDIATE: Menu
    ==================== */
 	
+    nav ul {
+        width: 250px;
+    }
+
 	nav a{
 		float:left;
-		width:27%;
-		/*margin:0 1.7%;*/
-		padding:25px 2%;
-		margin-bottom:0;
-	    border: 10px solid white;
+	    width: 100px;
+	    height: 100px;
+	    line-height: 100px;
+	    margin: 5px;
+		/*padding:25px 2%;*/
+	    /*border: 5px solid white;*/
+        box-shadow: 5px 5px 5px #AAA;
 	}
 	
-	nav li:first-child a{ margin-left:0;  }
+	/*nav li:first-child a{ margin-left:0;  }*/
 	nav li:last-child  a{ margin-right:0; }
 	
+    
+    #footer-container {
+        color:white;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 12%;
+        display: block
+    }
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
-	nav ul li{
-		display:inline;
-	}	
+    nav ul li {
+        display: inline;
+    }    
+    	
 	.oldie nav a{
 		margin:0 0.7%;		
 	}
@@ -229,10 +269,10 @@ nav a:hover{
 		float:left;
 	}
 
-	nav{
-		/*float:right;*/
+	/*nav{
+		/*float:right;
 		width:57%;
-	}
+	}*/
 
 /* ============
     WIDE: Main
@@ -252,12 +292,7 @@ nav a:hover{
         height: 100%;
     }
 
-    #footer-container {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        height: 12%;
-    }
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -266,10 +301,10 @@ nav a:hover{
     Maximal Width
    =============== */
 
-	.wrapper{
-		width:1026px; /* 1140px - 10% for margins */
+	/*.wrapper{
+		width:1026px; /* 1140px - 10% for margins 
 		margin:0 auto;
-	}
+	}*/
 
     html, body {
         height: 100%;

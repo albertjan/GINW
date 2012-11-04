@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="BAModule.cs" />
     <Compile Include="FAModule.cs" />
+    <Compile Include="PMBootstrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

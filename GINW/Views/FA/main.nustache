@@ -18,6 +18,7 @@
 	<script src="/content/modernizr-2.0.6.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="/content/anim.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
 
@@ -31,60 +32,30 @@
     
         <header class="wrapper clearfix">
 
-		<nav>
-            <ul>
-            {{#categories}}
-                <li><a class="category" id="{{Name}}" href="#">{{Name}}</a></li>
-            {{/categories}}
-            </ul>
-		</nav>
+		        <nav>
+                    <ul>
+                    {{#categories}}
+                        <li><a class="category" id="{{Name}}" href="#">{{Name}}</a></li>
+                    {{/categories}}
+                    </ul>
+		        </nav>
 
         </header> 
 
     </div>
-
-	<div id="main-container">
-		<div id="main" class="wrapper clearfix">
-			
-			<article>
-				<!--<header>
-					<h1>article header h1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-				</header>-->
-				<!--<section>
-					<h2>HOW (do I please you)</h2>
-					<p>
-                        <select>
-                            <option>
-                            </option>
-                            {{#categories}}
-                                <option>{{Name}}</option>
-                            {{/categories}}
-                        </select>
-                    </p>
-				</section>-->
-        <!--<div class="button">please.me!</div>-->
-				<!--<section>
-					<h2>article section h2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-				</section>-->
-				<!--<footer>
-					<h3>article footer h3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-				</footer>-->
-			</article>
-			
-			<!--<aside>
-				<h3>aside</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-			</aside>-->
-			
-		</div> <!-- #main -->
-	</div> <!-- #main-container -->
-
+    <div id="nav-header-container-2">
+         <div id="map_canvas" style="width:300px; height:100px"></div>
+        <label for="what">Please me with:</label> 
+      <input id="what" type="text"></input>
+      
+      <div class="what-sugestions"></div>
+    </div>
+	
 	<div id="footer-container">
 		<footer class="wrapper">
-			<h3>TWITTER!!</h3>
+			<h1><a href="https://twitter.com/pleaseme_now" class="twitter-follow-button" data-show-count="false" data-lang="nl" data-size="large">@pleaseme_now volgen</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      </h1>
 		</footer>
 	</div>
 

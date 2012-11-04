@@ -11,6 +11,8 @@ namespace GINB
             {
                 return View["main", new { categories = Category.GetExampleCategories()} ];
             };
+
+            Get["/signup"] = x => View["mail"];
         }
     }
 }
