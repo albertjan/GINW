@@ -100,6 +100,11 @@ header h1 {
     width: 160px;
 }
 
+.what-sugestions {
+    position: absolute;
+    display: none;
+}
+
 #footer-container{ border-top:    20px solid #8dd5d4; }
 #main aside      { border-top:    20px solid #8dd5d4; }
 
@@ -329,7 +334,7 @@ nav a:hover{
 }
 
 
-.button {
+/*.button {
     font-size: x-large;
     background-color: hotpink;
     border: 2px solid hotpink;
@@ -337,5 +342,5 @@ nav a:hover{
     border-radius: 10px;
     text-align: center;
     padding:25px 2%;
-}
+}*/
 

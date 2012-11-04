@@ -26,6 +26,12 @@ $(function () {
                         sugs = sugs + item + "<br>";
                     });
                     $(".what-sugestions").html(sugs);
+                    
+                    $(".what-sugestions").css('height', '200px');
+                    $(".what-sugestions").css('width', '200px');
+                    $(".what-sugestions").fadeIn(200);
+                    $(".what-sugestions").css('left', $('#what').position().left);
+                    $(".what-sugestions").css('top', $('#what').position().top + $('#what').height());
                 });
             } else {
                 $(".what-sugestions").html("");

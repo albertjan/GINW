@@ -49,6 +49,7 @@
       <input id="what" type="text"></input>
       
       <div class="what-sugestions"></div>
+	  <div class="test">test</div>
     </div>
 	
 	<div id="footer-container">
